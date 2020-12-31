@@ -1,0 +1,26 @@
+
+//this table is create for reg
+
+create table reg(uid1 varchar2(20) not null primary key,pwd varchar2(20),name varchar2(20),age number(5),qty number(5),phone varchar2(20),sq varchar2(20),sa varchar2(20));
+ 
+ NAME																				 NULL	  TYPE
+ UID1                                                                                NOT NULL VARCHAR2(20)
+ PWD                                                                                          VARCHAR2(20)
+ NAME                                                                                         VARCHAR2(20)
+ AGE                                                                                          NUMBER(5)
+ QTY                                                                                          NUMBER(5)
+ PHONE                                                                                        VARCHAR2(20)
+ SQ                                                                                           VARCHAR2(20)
+ SA                                                                                           VARCHAR2(20)
+
+
+create table exam(question varchar2(500),option1 varchar2(20),option2 varchar2(20),option3 varchar2(20),option4 varchar2(20),correct varchar2(20));
+//this table is create for exam
+
+ NAME																				 NULL?	  TYPE
+ QUESTION                                                                                     VARCHAR2(500)
+ OPTION1                                                                                      VARCHAR2(20)
+ OPTION2                                                                                      VARCHAR2(20)
+ OPTION3                                                                                      VARCHAR2(20)
+ OPTION4                                                                                      VARCHAR2(20)
+ CORRECT                                                                                      VARCHAR2(20)
